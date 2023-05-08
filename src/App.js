@@ -10,11 +10,12 @@ function App() {
 
   const [progress,setProgress] = useState(0);
 
-  const apikey = process.env.REACT_APP_NEWS_API_KEY
+  const apikey = "7353e1ea07a44513b1601b8791979fa3"
+
 
   return (
     <div>
-      <Navbar/>
+      <Navbar/> 
       <LoadingBar
         color='#f11946'
         progress={10}
